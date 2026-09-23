@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eric Chen 的作品集網站，展示軟體、AI、網路、FPGA 與研究專題作品。" />
+  <title>Eric Chen | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <a class="brand" href="#top">Eric Chen</a>
+      <div class="nav-links">
+        <a href="#projects">作品</a>
+        <a href="#research">專題</a>
+        <a href="https://github.com/ericchen" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </nav>
+
+    <div id="top" class="hero-content container">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h1>Eric Chen</h1>
+      <p class="hero-text">
+        資訊工程相關作品集，包含 Full-Stack Web、Natural Language Processing、Machine Learning、
+        Artificial Intelligence、Computer Networks、FPGA，以及日本麻將 AI 專題。
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">查看作品</a>
+        <a class="button secondary" href="https://github.com/ericchen" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED PROJECTS</p>
+        <h2>作品</h2>
+        <p>以下專案為課程與期末專題作品；部分 repository 由團隊成員建立，我以協作者身分參與開發。</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="card featured">
+          <div class="card-topline">
+            <span class="tag">Final Project</span>
+            <span class="category">Full-Stack Web</span>
+          </div>
+          <h3>GameHub Full-Stack Web Platform</h3>
+          <p>整合前端、後端與資料庫的完整網站專案，實作動態網頁功能與 Web 應用流程。</p>
+          <a class="project-link" href="https://github.com/hcchung1/GameHub-FullStack-Web-Platform" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="card featured">
+          <div class="card-topline">
+            <span class="tag">Final Project</span>
+            <span class="category">Natural Language</span>
+          </div>
+          <h3>LLM Routing</h3>
+          <p>以自然語言處理與大型語言模型為核心，設計 LLM routing 流程，依輸入內容導向合適的處理路徑。</p>
+          <a class="project-link" href="https://github.com/hcchung1/LLM-Routing" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-topline">
+            <span class="tag">Course Project</span>
+            <span class="category">Machine Learning</span>
+          </div>
+          <h3>Titanic: Machine Learning from Disaster</h3>
+          <p>以 Titanic 資料集進行資料前處理、特徵分析與分類模型訓練，建立乘客生存預測流程。</p>
+          <a class="project-link" href="https://github.com/hcchung1/Titanic-Machine-Learning-from-Disaster" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-topline">
+            <span class="tag">Course Project</span>
+            <span class="category">Artificial Intelligence</span>
+          </div>
+          <h3>Cryptocurrency Price Forecasting</h3>
+          <p>使用歷史加密貨幣價格與時間序列資料建立預測模型，分析市場資料中的變化趨勢。</p>
+          <a class="project-link" href="https://github.com/hcchung1/Cryptocurrency_Price_Forecasting" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-topline">
+            <span class="tag">Course Project</span>
+            <span class="category">Computer Networks</span>
+          </div>
+          <h3>Incan Gold</h3>
+          <p>以多人遊戲為情境實作網路通訊，練習 client-server 架構、連線管理與遊戲狀態同步。</p>
+          <a class="project-link" href="https://github.com/hcchung1/Incan-Gold" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-topline">
+            <span class="tag">Course Project</span>
+            <span class="category">FPGA / Digital Design</span>
+          </div>
+          <h3>Snake Game on FPGA</h3>
+          <p>在 FPGA 上實作貪食蛇遊戲，整合數位邏輯設計、輸入控制與畫面顯示。</p>
+          <a class="project-link" href="https://github.com/hcchung1/Snake-Game-on-FPGA" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section research-section">
+      <div class="container research-layout">
+        <div>
+          <p class="eyebrow">RESEARCH PROJECT</p>
+          <h2>Japanese Mahjong Ready-Hand Prediction</h2>
+          <p class="research-lead">
+            以日本麻將（Riichi Mahjong）為研究情境，利用牌局中可公開觀察的資訊，
+            預測對手是否已進入聽牌（ready-hand）狀態。
+          </p>
+        </div>
+
+        <div class="research-card">
+          <div class="research-item">
+            <span>Task</span>
+            <strong>Binary Classification</strong>
+          </div>
+          <div class="research-item">
+            <span>Models</span>
+            <strong>CNN · ResNet · Transformer</strong>
+          </div>
+          <div class="research-item">
+            <span>Input</span>
+            <strong>Current State · Action History</strong>
+          </div>
+          <div class="research-item">
+            <span>Goal</span>
+            <strong>Opponent Ready-Hand Prediction</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="container research-description">
+        <p>
+          專題將對手聽牌預測建模為 supervised binary classification，輸入僅使用公開資訊，
+          並比較靜態牌局表示（Current representation）與保留行動時間順序的 History representation。
+          在共同實驗架構下比較 CNN、ResNet 與 Transformer，分析不同模型與資訊表示方式對預測效果的影響。
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© 2026 Eric Chen</span>
+      <a href="https://github.com/ericchen" target="_blank" rel="noopener noreferrer">github.com/ericchen</a>
+    </div>
+  </footer>
+</body>
+</html>
