@@ -214,13 +214,40 @@ h3 {
 
 .card p {
   flex-grow: 1;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 24px;
+}
+
+.tech-stack span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 4px 9px;
+  border: 1px solid #dfe4ec;
+  border-radius: 7px;
+  color: #475467;
+  background: #f8fafc;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.35;
 }
 
 .project-link {
   font-weight: 600;
   color: var(--accent);
   font-size: 0.92rem;
+}
+
+.project-status {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 600;
 }
 
 .research-section {
@@ -285,7 +312,18 @@ h3 {
 
 .research-description p {
   max-width: 900px;
+  margin-bottom: 24px;
+}
+
+.research-keywords {
+  max-width: 900px;
   margin-bottom: 0;
+}
+
+.research-keywords span {
+  color: #d7def0;
+  background: #182131;
+  border-color: #344156;
 }
 
 footer {
